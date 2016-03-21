@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Montserrat", Arial, sans-serif;
+	line-height: 1.4;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+nav {
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding: 1em;
+	z-index: 1;
+}
+
+nav a {
+	color: inherit;
+	text-decoration: none;
+	margin: 0 1em;
+}
+
+.gallery {
+
+}
+
+.thumbnail {
+	width: 24%;
+	margin: .5%;
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #cccccc;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1em;
+}
+
+@media only screen and (max-width: 1200px){
+	.thumbnail {
+		width: 32.333%;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.thumbnail {
+		width: 49%;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.thumbnail {
+		width: 99%;
+	}
+}
